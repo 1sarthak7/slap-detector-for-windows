@@ -177,23 +177,16 @@ F --> B
 
 ---
 
-# 🤝 Contributing
+## 🤝 Contributing
 
-Pull requests are welcome.
-
-Steps:
-
-1. Fork the repo
-2. Create a branch
-3. Commit changes
-4. Open a PR
-
-Ideas for contributions:
-
-* 🎮 Slap-controlled games
-* 🔔 Slap → trigger system actions
-* 🧠 AI sound classification
-* 📊 GUI visualization
+<p align="center">
+  <a href="https://github.com/1sarthak7/slap-detection-mac/issues">
+    <img src="https://img.shields.io/badge/Report%20Bug-FF6B6B?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://github.com/1sarthak7/slap-detection-mac/issues">
+    <img src="https://img.shields.io/badge/Request%20Feature-4CAF50?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
 ---
 
@@ -208,12 +201,6 @@ Ideas for contributions:
 </p>
 
 <p align="center">
-  ⭐ Star this repo if you enjoyed slapping your MacBook!
+  ⭐ Star this repo if you enjoyed slapping Your lappy !
 </p>
  
-
-</p>
-
-<p align="center">
-⭐ Star the repo if you enjoyed this project!
-</p>
