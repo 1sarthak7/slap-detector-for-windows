@@ -19,9 +19,9 @@
 
 <div align="center">
 
-### 🎯 A real-time slap detection app for **Windows** that listens through your microphone, detects sharp impact sounds, and plays hilarious audio reactions.
+###  A real-time slap detection app for **Windows** that listens through your microphone, detects sharp impact sounds, and plays hilarious audio reactions.
 
-*Built for Windows PCs • Real-time detection • Fun party trick 🎉*
+*Built for Windows PCs • Real-time detection • Fun party trick *
 
 </div>
 
@@ -33,7 +33,7 @@
 <tr>
 <td width="50%">
 
-### 🎤 Real-Time Audio Detection
+###  Real-Time Audio Detection
 
 Continuously monitors your microphone and processes audio blocks in real time to detect **sudden slap sounds** with minimal latency.
 
@@ -124,7 +124,7 @@ Edit these parameters at the top of `slap.py`:
 
 ---
 
-# 🔧 Tuning Tips
+#  Tuning Tips
 
 ```
 Too many triggers? → Increase THRESHOLD
@@ -135,7 +135,7 @@ Noisy room?        → Increase SPIKE_RATIO
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```
 slap-detector-for-windows/
