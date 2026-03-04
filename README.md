@@ -73,16 +73,6 @@ Drop `.wav` or `.mp3` files into the `audio/` folder and the program will **play
 
 ---
 
-#  Quick Start
-
-## Requirements
-
-* **Windows 10 / Windows 11**
-* **Python 3.9+**
-* **Microphone**
-
----
-
 # Installation
 
 ```bash
@@ -110,30 +100,6 @@ Now **slap your desk or table** near the microphone and enjoy the reaction.
 
 ---
 
-# ⚙️ Configuration
-
-Edit these parameters at the top of `slap.py`:
-
-| Parameter     | Default | Description                                   |
-| ------------- | ------- | --------------------------------------------- |
-| `THRESHOLD`   | `0.35`  | Minimum amplitude required to trigger         |
-| `SPIKE_RATIO` | `3.0`   | How much louder than ambient the slap must be |
-| `COOLDOWN`    | `1.0`   | Minimum seconds between triggers              |
-| `SAMPLE_RATE` | `44100` | Microphone sample rate                        |
-| `BLOCK_SIZE`  | `1024`  | Samples per analysis block                    |
-
----
-
-#  Tuning Tips
-
-```
-Too many triggers? → Increase THRESHOLD
-Missing slaps?     → Lower THRESHOLD
-Double triggers?   → Increase COOLDOWN
-Noisy room?        → Increase SPIKE_RATIO
-```
-
----
 
 #  Project Structure
 
@@ -149,31 +115,6 @@ slap-detector-for-windows/
 ├── README.md
 └── requirements.txt
 ```
-
----
-
-#  How It Works
-
-```mermaid
-graph LR
-A[🎤 Microphone] --> B[Audio Stream]
-B --> C[Peak Detection]
-C --> D{Above Threshold?}
-D -->|Yes| E[💥 Slap Detected]
-D -->|No| F[Update Ambient Noise]
-E --> G[🔊 Play Random Sound]
-E --> H[Cooldown Timer]
-H --> B
-F --> B
-```
-
-### Steps
-
-1. Capture microphone audio
-2. Analyze peak amplitude of each block
-3. Compare against ambient noise baseline
-4. If spike detected → trigger reaction
-5. Play random sound from `audio/`
 
 ---
 
