@@ -27,7 +27,7 @@
 
 ---
 
-# 🔥 Features
+#  Features
 
 <table>
 <tr>
@@ -40,7 +40,7 @@ Continuously monitors your microphone and processes audio blocks in real time to
 </td>
 <td width="50%">
 
-### 📊 Live Visual Meter
+###  Live Visual Meter
 
 ```
 🎤 [████████░░░░░░░░░░░░░░░░░░░░░░] peak=0.203
@@ -55,7 +55,7 @@ Real-time terminal visualization of microphone intensity.
 <tr>
 <td width="50%">
 
-### 🧠 Adaptive Noise Detection
+###  Adaptive Noise Detection
 
 Automatically adapts to background noise using an **ambient noise baseline** so it works in quiet rooms and noisy environments.
 
@@ -63,7 +63,7 @@ Automatically adapts to background noise using an **ambient noise baseline** so 
 
 <td width="50%">
 
-### 🎵 Random Sound Reactions
+### Random Sound Reactions
 
 Drop `.wav` or `.mp3` files into the `audio/` folder and the program will **play a random sound** whenever a slap is detected.
 
@@ -73,7 +73,7 @@ Drop `.wav` or `.mp3` files into the `audio/` folder and the program will **play
 
 ---
 
-# 🚀 Quick Start
+#  Quick Start
 
 ## Requirements
 
@@ -152,7 +152,7 @@ slap-detector-for-windows/
 
 ---
 
-# 🧠 How It Works
+#  How It Works
 
 ```mermaid
 graph LR
@@ -177,7 +177,7 @@ F --> B
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 <p align="center">
   <a href="https://github.com/1sarthak7/slap-detection-mac/issues">
