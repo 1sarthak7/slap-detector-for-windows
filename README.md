@@ -197,15 +197,20 @@ Ideas for contributions:
 
 ---
 
-# 📜 License
-
-MIT License.
-
----
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=4000&pause=2000&color=FF6B6B&center=true&vCenter=true&repeat=true&width=500&lines=Made+with+%E2%9D%A4%EF%B8%8F+and+a+lot+of+slapping+%F0%9F%96%90;by+%401sarthak7" alt="Footer" />
+</p>
 
 <p align="center">
+  <a href="https://github.com/1sarthak7">
+    <img src="https://img.shields.io/badge/GitHub-1sarthak7-181717?style=for-the-badge&logo=github" />
+  </a>
+</p>
 
-Made with ❤️ and lots of **desk slapping** 🖐
+<p align="center">
+  ⭐ Star this repo if you enjoyed slapping your MacBook!
+</p>
+ 
 
 </p>
 
