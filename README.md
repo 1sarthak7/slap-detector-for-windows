@@ -96,8 +96,6 @@ Once running:
 🎤 Listening for slaps...
 ```
 
-Now **slap your desk or table** near the microphone and enjoy the reaction.
-
 ---
 
 
